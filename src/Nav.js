@@ -3,9 +3,9 @@ const Navigation = () => {
         <header>
             <nav>
                 <ul>
-                    <li><a>Search Recipes</a></li>
-                    <li><a>Main</a></li>
-                    <li><a>Submit Recipes</a></li>
+                    <li><a href="#">Search Recipes</a></li>
+                    <li><a href="#">Main</a></li>
+                    <li><a href="#">Submit Recipes</a></li>
                 </ul>
             </nav>
         </header>
