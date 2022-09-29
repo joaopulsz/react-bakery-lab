@@ -38,8 +38,8 @@ const Display = () => {
             <h2>See below some cakes from our beautiful selection:</h2>
 
             {cakesDisplay}
-            
-            <h2>The average rating of all cakes is {cakes.reduce((total, rating) => (total + rating) / cakes.length, 0)}</h2>
+
+            <h2>The average rating of all cakes is {cakes.reduce((total, cake) => (total + cake.rating), 0) / cakes.length}</h2>
         </section>
     );
 }
